@@ -1,0 +1,117 @@
+
+.box1{
+    height: 600px;
+    width: 3825px;
+    background-color: cyan;
+    font-size: 90px;
+    left: 0px;
+    top:  0px;
+    text-align: center;
+    border-style: solid;
+    position: sticky;
+    transition-duration: 3600ms;
+    transition-timing-function: ease-in-out;
+    transition-property: height width background-color font-size left top text-align;
+}
+.box1:hover{
+    width: 600px;
+    height: 400px;
+    background-color: #2389da;
+    left: 1700px;
+    top:  900px;
+    font-size: 50px;
+    text-align: center;
+    position: sticky;
+    z-index: 2;
+    transition-duration: 5000ms;
+    transition-timing-function:ease-in-out;
+    transition-property: width height left top  background-color font-size text-align;
+}
+.shadow{
+
+    box-shadow: 20px 20px 15px 15px #888888;
+    background-color: rgba(0, 195, 255, 0.466);
+}
+.img{
+    background-image: url(https://mentortogethersocent.files.wordpress.com/2012/09/water-saving-tips.jpg);
+    background-repeat: no-repeat;
+    height: 2300px;
+    background-size: 2000px 2300px;
+    transform: translate(25%,0%);
+}
+.img1{
+    background-image: url(https://1.bp.blogspot.com/-xU8tXyNpgJ4/XY1TuLAT7gI/AAAAAAAAAE8/_sV8e-waFW4uZCJKqpo_ggFFpNUTwi5gACLcBGAsYHQ/s1600/Save-water-save-life.jpg);
+    height: 800px;
+    background-size: 1000px 800px;
+    background-repeat: no-repeat;
+    position: sticky;
+    transform: translate(0%,0%);
+    transition-duration: 3s;
+    transition-timing-function: linear;
+}
+.img1:hover{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTe0FFZcY8CyDGFwWn5_S_G224Ccczds84H2Q&usqp=CAU);
+    height: 800px;
+    background-size: 1000px 800px;
+    background-repeat: no-repeat;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+}
+.img2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSufkij-k6ZLeXzhVkpAaSgGPZ-CJ0iztKCZQ&usqp=CAU);
+    height: 800px;
+    position: sticky;
+    background-size: 1000px 800px;
+    transform: translate(74%,-100%);
+    background-repeat: no-repeat;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+} 
+.img2:hover{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTrIGJ5iWtruUUr7HG-_Hafc3-ufGB9QtKIDQ&usqp=CAU);
+    height: 800px;
+    background-size: 1000px 800px;
+    background-repeat: no-repeat;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+}  
+.img3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRoNDYU1EsSrK1hsutYI8ibT5eTwRl_Ul7icg&usqp=CAU);
+    transform: translate(0%,99%);
+    height: 800px;
+    background-size: 1000px 800px;
+    background-repeat: no-repeat;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+}
+.img3:hover{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSJkNN6VDUQXaOiQStdqh4nge3H-AxVtYHSMw&usqp=CAU);
+    height: 800px;
+    background-size: 1000px 800px;
+    background-repeat: no-repeat;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+}
+.img4{
+    background-image: url(https://i1.wp.com/blog.apnacomplex.com/wp-content/uploads/2016/12/Handmade-Poster-on-Save-Water-e1483186776633.png?resize=243%2C300);
+    transform: translate(74%,-1%);
+    height: 800px;
+    background-size: 1000px 800px;
+    background-repeat: no-repeat;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+}
+.img4:hover{
+    background-image: url(https://i.pinimg.com/474x/b8/02/13/b80213fc10ee167bc391880539f64f93.jpg);
+    height: 800px;
+    background-size: 1000px 800px;
+    background-repeat: no-repeat;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+}
+body{
+    margin: 90px;
+}
+
+
+
